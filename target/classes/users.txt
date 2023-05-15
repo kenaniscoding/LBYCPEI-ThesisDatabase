@@ -1,0 +1,2 @@
+ADMIN,admin,1
+STUDENT,student,0

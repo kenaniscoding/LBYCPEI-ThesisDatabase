@@ -1,0 +1,34 @@
+Thesis Title,Grp,Trm,SY,No.,Members,Adviser,Chair of Panel,Panelist1,Panelist2,Status
+Real-Time Spectrophometric Determination of Coffee Roast Degree,DSP,1,1920,1,Member1,"Ochotorena, C.","Sybingco, E.","Jose, J.","Gustilo, R.",Incoming ECEPRO3
+Automated Self-Segregating Smart Trash bin with Monitoring and Control,RIAL,1,1920,4,Member2,"Jose, J.","Yap, R.","Roque, M.","Cabatuan, M.",CPEPRO3
+WiFi-based Indoor Positioning System in a Multilevel Building,WCEL,1,2021,1,Member3,"Magsino, E.","Alipio, M.","Arada, G.","Mappatao, G.",ECEPRO3
+Detection of Harmful Gases in Improvised Explosive Device using MQSeries array of sensors with Android Technology: A prototype,ESCA,1,2021,C1,Member4,"Illahi, A.","Pakzad, A.","Ligutan, D.","Roque, M.",CPEPRO3
+Implementation of Wireless Sensor Network for Water Quality Monitoring and Potability Classification in Rural Areas ,WCEL,1,2021,5,Member5,"Alipio, M.","Catalan, J.","Manzano, E.","Abuan, D.",Incoming ECEPRO3
+Advance Scorecard For Boxing: Combat Sport Analysis With Deep Learning,AISL,1,2021,4,Member6,"Cabatuan, M.","Jose, J.","Sybingco, E.","Alipio, M.",ECEPRO3
+PCB Fault Detection Through the Use of Convolutional Neural Networks,AISL,1,2021,C4,Member7,"Gustilo, R.","Yap, R.","Ambata, L.","Cabatuan, M.",CPEPRO3
+Vertical Farming using Arduino,AISL,1,2021,C3,Member8,"Gustilo, R.","Dulay, A.","Abuan, D.","Del Rosario, J.",CPEPRO3
+"Design on a single mission engineless balloon flight navigation control, using RF remote control",AISL,1,2021,C2,Member9,"Gustilo, R.","Del Rosario, J.","Bandala, A.","Ambata, L.",ACTIVE
+Autonomous flock of solid waste capturing ships to address polluted waters via computer vision and a centralized communication system,RIAL,3,2021,1,Member10,"Maningo, J.","Dulay, A.","Alipio, M.","Ochotorena, C.",ACTIVE
+Portable Semi-Autonomous Robot for Agricultural Insect Pest Recognition and Elimination,RIAL,3,2021,2,Member11,"Maningo, J.","Bandala, A.","Ligutan, D.","Arada, G.",ACTIVE
+A Network-Based Solution and Knowledge-Building Portal for Monitoring Goat Feeding Behavior Pattern and Agricultural Technology Information Sharing,CNIL,3,2021,1,Member12,"Alipio, M.","Mappatao, G.","Ambata, L.","Roque, M.",ACTIVE
+Emotion-Based Music Player Using Facial Recognition,AISL,1,2122,C1,Member13,"Gustilo, R.","Cabatuan, M.","Roque, M.","Sybingco, E.",Incoming CPEPRO2
+Decentralized P2P Microgrid Energy Sharing Controller & Algorithm,REST,1,2122,1,Member14,"Catalan, J.","Magsino, E.","Manzano, E.","Materum, L.",ECEPRO2
+IoT-Based Vital Signs Alert Notification System for Firefighters for Emergency Extraction,CNIL,1,2122,1,Member15,"Sybingco, E.","Ambata, L.","Llorente, C.","Ochotorena, C.",ECEPRO2
+Human Presence Detection based on Gathered Aerial Thermal Datasets through Deep Learning,DSP,3,2021,1,Member16,"Maningo, J.","Ambata, L.","Sybingco, E.","Cabatuan, M.",Incoming ECEPRO3
+Designing a Semi-Autonomous Medicine Dispensing Mobile Robot using IoT with Obstacle Detection Capabilities,RIAL,3,2021,3,Member17,"Ligutan, D.","Yap, R.","Alipio, M.","Dulay, A.",Incoming ECEPRO3
+Development of a Cloud-based Robotic Arm Platform in Electrical Circuit Laboratory for Labvolt Equipment,RIAL,3,2021,4,Member18,"Ligutan, D.","Llorente, C.","Magsino, E.","Yap, R.",Incoming ECEPRO3
+Development of a Quadruped Robotic Platform with Object Detection,RIAL,3,2021,C1,Member19,"Bandala, A.","Maningo, J.","Ligutan, D.","Catalan, J.",Incoming CPEPRO3
+Development of a Hexapedal Pneumatic Soft Robot,RIAL,3,2021,C2,Member20,"Bandala, A.","Ligutan, D.","Pakzad, A.","Abuan, D.",Incoming CPEPRO3
+Breast Cancer Screening Kit using Thermography and Machine Learning Analysis,RIAL,3,2021,5,Member21,"Sybingco, E.","Jose, J.","Cabatuan, M.","Abuan, D.",Incoming CPEPRO3
+Design and Implementation of LoRaWAN Autonomous Base Station as a Communication Network for Rural Areas,WCEL,3,2021,1,Member22,"Arada, G.","Mappatao, G.","Materum, L.","Pakzad, A.",Incoming ECEPRO3
+LoRa on the Bus: Time and Location Monitoring System for P2P Buses,WCEL,3,2021,2,Member23,"Arada, G.","Magsino, E.","Materum, L.","Mappatao, G.",Incoming ECEPRO3
+Development of a Smart Parking System based on Multiple Wi-Fi RSSI Fingerprinting Method with an Integrated Real-Time Reservation and Notification System,WCEL,3,2021,3,Member24,"Magsino, E.","Dulay, A.","Catalan, J.","Llorente, C.",Incoming ECEPRO3
+Developing an Automated IoT-based Indoor Farming System with Optimal LED Light Quality Control for Leafy Vegetable Growth,AISL,3,2021,C1,Member25,"Gustilo, R.","Llorente, C.","Mappatao, G.","Abuan, D.",Incoming CPEPRO3
+Drone Team Manipulation using Hand Gestures for Object Transportation,RIAL,3,2021,C3,Member26,"Bandala, A.","Illahi, A.","Ligutan, D.","Jose, J.",Incoming CPEPRO3
+Machine Learning-Based Identification and Classification of Pulmonary Nodules,AISL,3,2021,C3,Member27,"Jose, J.","Pakzad, A.","Ochotorena, C.","Materum, L.",Incoming CPEPRO3
+Universal Adaptive Vehicle Identification System,DSP,3,2021,2,Member28,"Ambata, L.","Ochotorena, C.","Mappatao, G.","Yap, R.",Incoming ECEPRO3
+Development of an Automated Microcontroller-based In-Vessel Composting System for the Urban Setting,ESCA,3,2021,C1,Member29,"Illahi, A.","Yap, R.","Pakzad, A.","Catalan, J.",Incoming CPEPRO3
+Dagas: A Mobile and Web-based Internet-of-Things Disaster Logistics Management System ,CNIL,3,2021,C1,Member30,"Dulay, A.","Del Rosario, J.","Mappatao, G.","Catalan, J.",Incoming CPEPRO3
+Development of a Home Healthcare System for a Person Under Monitoring with Remote Access through Web Application,ESCA,3,2021,C2,Member31,"Llorente, C.","Illahi, A.","Pakzad, A.","Materum, L.",Incoming CPEPRO3
+Wireless Moving Robotic Arm using Leap Motion with Neural Network Classification Using MATLAB,MICRO,3,2021,C1,Member32,"Abuan, D.","Materum, L.","Llorente, C.","Ochotorena, C.",Incoming CPEPRO3
+Design and Implementation of Adaptive Bipedal Robot on Rough or Non-flat Surfaces,RIAL,1,1920,2,Member33,"Maningo, J.","Bandala, A.","Del Rosario, J.","Illahi, A.",Incoming ECEPRO3

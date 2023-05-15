@@ -1,0 +1,3 @@
+ADMIN,admin,1
+STUDENT,student,0
+Kenan,kenan523,1

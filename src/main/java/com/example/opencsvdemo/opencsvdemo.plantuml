@@ -1,0 +1,188 @@
+@startuml
+
+title __OPENCSVDEMO's Class Diagram__\n
+
+  namespace a {
+    namespace om.example.opencsvdemo {
+      class com.example.opencsvdemo.ADMINController {
+          {static} + CSV_FILENAME : String
+          ~ adviserColumn : TableColumn<ThesisRecord, String>
+          ~ chairColumn : TableColumn<ThesisRecord, String>
+          ~ filterField : TextField
+          ~ groupColumn : TableColumn<ThesisRecord, String>
+          ~ inputAdviser : TextField
+          ~ inputGrp : TextField
+          ~ inputMembers : TextField
+          ~ inputNo : TextField
+          ~ inputPanel_Chair : TextField
+          ~ inputPanelist1 : TextField
+          ~ inputPanelist2 : TextField
+          ~ inputStatus : TextField
+          ~ inputSy : TextField
+          ~ inputTitle : TextField
+          ~ inputTrm : TextField
+          ~ membersColumn : TableColumn<ThesisRecord, String>
+          ~ noColumn : TableColumn<ThesisRecord, String>
+          ~ panelist1Column : TableColumn<ThesisRecord, String>
+          ~ panelist2Column : TableColumn<ThesisRecord, String>
+          ~ statusColumn : TableColumn<ThesisRecord, String>
+          ~ syColumn : TableColumn<ThesisRecord, String>
+          ~ titleColumn : TableColumn<ThesisRecord, String>
+          ~ trmColumn : TableColumn<ThesisRecord, String>
+          - database : ObservableList<ThesisRecord>
+          {static} - index : int
+          {static} - rowCount : int
+          - tableView : TableView<ThesisRecord>
+          + addRecord()
+          + exitProgram()
+          + initialize()
+          + menuProgram()
+          + onRefreshClick()
+          + remove()
+          + rowClicked()
+          + submit()
+          - loadCSV()
+          - loadNewCSV()
+      }
+    }
+  }
+  
+
+  namespace a {
+    namespace om.example.opencsvdemo {
+      class com.example.opencsvdemo.AddRecordController {
+          + titleField : TextField
+          - adviserField : TextField
+          - groupField : TextField
+          - groupNumField : TextField
+          - membersField : TextField
+          - panelChairField : TextField
+          - panelist1Field : TextField
+          - panelist2Field : TextField
+          - statusField : TextField
+          - syField : TextField
+          - termField : TextField
+          ~ addRecord()
+          - closeStage()
+          - newLineExists()
+          - wrapComma()
+          - writeRecord()
+      }
+    }
+  }
+  
+
+  namespace a {
+    namespace om.example.opencsvdemo {
+      class com.example.opencsvdemo.HelloController {
+          {static} + CSV_FILENAME : String
+          ~ adviserColumn : TableColumn<ThesisRecord, String>
+          ~ chairColumn : TableColumn<ThesisRecord, String>
+          ~ filterField : TextField
+          ~ groupColumn : TableColumn<ThesisRecord, String>
+          ~ membersColumn : TableColumn<ThesisRecord, String>
+          ~ noColumn : TableColumn<ThesisRecord, String>
+          ~ panelist1Column : TableColumn<ThesisRecord, String>
+          ~ panelist2Column : TableColumn<ThesisRecord, String>
+          ~ statusColumn : TableColumn<ThesisRecord, String>
+          ~ syColumn : TableColumn<ThesisRecord, String>
+          ~ titleColumn : TableColumn<ThesisRecord, String>
+          ~ trmColumn : TableColumn<ThesisRecord, String>
+          - database : ObservableList<ThesisRecord>
+          {static} - index : int
+          {static} - rowCount : int
+          - tableView : TableView<ThesisRecord>
+          + addRecord()
+          + exitProgram()
+          + initialize()
+          + menuProgram()
+          + onRefreshClick()
+          - loadCSV()
+          - loadNewCSV()
+      }
+    }
+  }
+  
+
+  namespace a {
+    namespace om.example.opencsvdemo {
+      class com.example.opencsvdemo.LoginController {
+          - password : PasswordField
+          - prompt : Label
+          - username : TextField
+          - handleLogin()
+          - onExit()
+      }
+    }
+  }
+  
+
+  namespace a {
+    namespace om.example.opencsvdemo {
+      class com.example.opencsvdemo.MainApplication {
+          {static} - scene : Scene
+          {static} - thisStage : Stage
+          + changeScene()
+          {static} + main()
+          + start()
+      }
+    }
+  }
+  
+
+  namespace a {
+    namespace om.example.opencsvdemo {
+      class com.example.opencsvdemo.ThesisRecord {
+          - adviser : SimpleStringProperty
+          - chair_panel : SimpleStringProperty
+          - group : SimpleStringProperty
+          - grp_number : SimpleStringProperty
+          - members : SimpleStringProperty
+          - panelist1 : SimpleStringProperty
+          - panelist2 : SimpleStringProperty
+          - status : SimpleStringProperty
+          - sy : SimpleStringProperty
+          - term : SimpleStringProperty
+          - title : SimpleStringProperty
+          + adviserProperty()
+          + chair_panelProperty()
+          + getAdviser()
+          + getChair_panel()
+          + getGroup()
+          + getGrp_number()
+          + getMembers()
+          + getPanelist1()
+          + getPanelist2()
+          + getStatus()
+          + getSy()
+          + getTerm()
+          + getTitle()
+          + groupProperty()
+          + grp_numberProperty()
+          + membersProperty()
+          + panelist1Property()
+          + panelist2Property()
+          + statusProperty()
+          + syProperty()
+          + termProperty()
+          + titleProperty()
+          ~ ThesisRecord()
+          ~ ThesisRecord()
+      }
+    }
+  }
+  
+
+  com.example.opencsvdemo.ADMINController .up.|> javafx.fxml.Initializable
+  com.example.opencsvdemo.HelloController .up.|> javafx.fxml.Initializable
+  com.example.opencsvdemo.MainApplication -up-|> javafx.application.Application
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
